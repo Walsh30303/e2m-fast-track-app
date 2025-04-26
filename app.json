@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "E2M Fast Track App",
+    "slug": "e2m-fast-track-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/app-icon.png",
+    "userInterfaceStyle": "dark",
+    "sdkVersion": "49.0.0",
+    "jsEngine": "hermes",
+    "splash": {
+      "image": "./assets/app-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#121212"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.walsh30303.e2mfasttrackapp"
+    },
+    "android": {
+      "package": "com.walsh30303.e2mfasttrackapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/app-icon.png",
+        "backgroundColor": "#121212"
+      }
+    },
+    "web": {
+      "favicon": "./assets/app-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "26f92e64-bb31-4da4-8c4d-5353ecd88433"
+      }
+    }
+  }
+}
